@@ -1,10 +1,11 @@
-
+import React from "react"
+import ProfileCard from "./ProfileCard";
 
 
 function App() {
   return (
-    <div className="App">
-      hello
+    <div className="section">
+      <ProfileCard />
     </div>
   );
 }
