@@ -1,11 +1,11 @@
 import React from "react"
-import ProfileCard from "./ProfileCard";
+import HomePage from "./HomePage";
 
 
 function App() {
   return (
     <div className="section">
-      <ProfileCard />
+      <HomePage />
     </div>
   );
 }
