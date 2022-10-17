@@ -11,7 +11,10 @@ export default function CircuitPiece(){
          <div className="outer-square">
                 
                 <div className="inner-square">
-                    <div className="left-wires1"></div>
+                    <div className="left-wires1">
+
+                        <div className="node1"></div>
+                    </div>
                     <div className="left-wires2"></div>
                     <div className="left-wires3"></div>
 

@@ -5,8 +5,8 @@
 }
 
 .outer-square{
-    width:150px;
-    height:150px;
+    width:140px;
+    height:140px;
     border: 3px solid rebeccapurple;
     border-radius: 10px;
 
@@ -14,13 +14,13 @@
     margin-left: auto;
     margin-right: 0;
     
-    display: grid;
-    align-content: center;   
-    justify-content: center; 
+    
 }
 .inner-square{
-    width: 120px;
-    height: 120px;
+    margin-top: 12%;
+    margin-left: 10%;
+    width:75%;
+    height: 75%;
     border: 3px solid rebeccapurple;
     border-radius: 10px;
    
@@ -30,13 +30,13 @@
 }
 
 .smallest-square{
-    width: 16px;
-    height: 16px;
+    width: 16%;
+    height: 16%;
     border: 2px solid rebeccapurple;
     border-radius: 3px;
-    margin-left: 24px;
-    margin-top: 23px;
-    position: fixed;
+    margin-left: 24%;
+    /* margin-top: -35%; */
+
    
     
 
@@ -46,49 +46,62 @@
    
         border-top:2px solid black;
         border-right: 2px solid black;
-        height: 16px;
-        margin-top: 15px;
-		width:45px;
+        height: 10%;
+        margin-top: 15%;
+		width:35%;
 		
 }
 
 
 .left-wires2{
     
-	    margin-top: 25px;
-		width:25px;
+	    margin-top: 25%;
+		width:20%;
 		
 		border-top:2px solid black;
 }
 .left-wires3{
     
-	    margin-top: 25px;
-		width:45px;
-        height: 16px;
+	    margin-top: 19%;
+		width:35%;
+        height: 10%;
         border-right: 2px solid black;
 		border-bottom:2px solid black;
 }
 .left-wires4{
-    
-    margin-top: 25px;
-    width:45px;
-    height: 16px;
-    border-right: 2px solid black;
+   margin-left: auto;
     border-bottom:2px solid black;
+    border-left: 2px solid black;
+    height: 10%;
+    margin-top: -70%;
+    width:35%;
+    
 }
+
 .left-wires5{
-    
-    margin-top: 25px;
-    width:45px;
-    height: 16px;
-    border-right: 2px solid black;
-    border-bottom:2px solid black;
+    margin-left: auto;
+
+    margin-top: 25%;
+    width:35%;
+    height: 10%;
+    border-left: 2px solid black;
+    border-top:2px solid black;
 }
+
+
 .left-wires6{
+    margin-left: auto;
+
+    margin-top: 20%;
+    width:20%;
     
-    margin-top: 25px;
-    width:45px;
-    height: 16px;
-    border-right: 2px solid black;
-    border-bottom:2px solid black;
+    border-top:2px solid black;
+}
+
+.node1{
+    width: 35%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: auto;
 }
