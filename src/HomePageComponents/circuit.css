@@ -1,7 +1,13 @@
+.circuit{
+    padding: 0;
+    margin-right: 50px;
+
+}
+
 .outer-square{
-    width:100px;
-    height:100px;
-    border: 5px solid rebeccapurple;
+    width:150px;
+    height:150px;
+    border: 3px solid rebeccapurple;
     border-radius: 10px;
 
     background-color: white;
@@ -13,10 +19,11 @@
     justify-content: center; 
 }
 .inner-square{
-    width: 70px;
-    height: 70px;
-    border: 5px solid rebeccapurple;
+    width: 120px;
+    height: 120px;
+    border: 3px solid rebeccapurple;
     border-radius: 10px;
+   
     
 
     
@@ -28,18 +35,60 @@
     border: 2px solid rebeccapurple;
     border-radius: 3px;
     margin-left: 24px;
-    margin-top: -13px;
+    margin-top: 23px;
+    position: fixed;
+   
     
 
 }
 
 .left-wires1{
    
-	margin-top: 30px;
-		width:10px;
-		height:10px;
-		border-top:2px solid black;
+        border-top:2px solid black;
+        border-right: 2px solid black;
+        height: 16px;
+        margin-top: 15px;
+		width:45px;
 		
-		
+}
 
+
+.left-wires2{
+    
+	    margin-top: 25px;
+		width:25px;
+		
+		border-top:2px solid black;
+}
+.left-wires3{
+    
+	    margin-top: 25px;
+		width:45px;
+        height: 16px;
+        border-right: 2px solid black;
+		border-bottom:2px solid black;
+}
+.left-wires4{
+    
+    margin-top: 25px;
+    width:45px;
+    height: 16px;
+    border-right: 2px solid black;
+    border-bottom:2px solid black;
+}
+.left-wires5{
+    
+    margin-top: 25px;
+    width:45px;
+    height: 16px;
+    border-right: 2px solid black;
+    border-bottom:2px solid black;
+}
+.left-wires6{
+    
+    margin-top: 25px;
+    width:45px;
+    height: 16px;
+    border-right: 2px solid black;
+    border-bottom:2px solid black;
 }
