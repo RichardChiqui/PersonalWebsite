@@ -10,6 +10,7 @@ export default function ProfileCard(){
     return(
         <div>
         <Header />
+        
         <HomeBody />
         </div>
         

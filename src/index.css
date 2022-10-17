@@ -3,10 +3,19 @@ body {
   padding:0;
 }
 .nav-header{
-background-color: red;
+background-color: #152238;
+
 display:flex;
-clear: none;
 justify-content: flex-end;
+clear: none;
+color:white;
+font-family: 'Courier New', Courier, monospace;
+border:3px solid #E1D9D1;
+border-top: 0px;
+border-left: 0px;
+border-right:0px;
+
+
 
 }
 .nav-header > h1{
@@ -14,7 +23,18 @@ justify-content: flex-end;
 }
 
 .home-body{
-  background: linear-gradient(70deg,#561139, #38A2D7);
+  background: #152238;
+  
   height: 100vh;
+ 
 
+}
+.home-description{
+ 
+  margin: 0px;
+width: 30%;
+height: 40%;
+   font-size: 30px;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
 }
