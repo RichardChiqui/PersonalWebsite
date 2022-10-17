@@ -8,9 +8,8 @@ export default function ProfileCard(){
 
 
     return(
-        <div>
+        <div className="landing-page">
         <Header />
-        
         <HomeBody />
         </div>
         
