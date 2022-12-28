@@ -1,18 +1,19 @@
 .circuit{
     padding: 0;
-    margin-right: 50px;
-
+    margin-right: 11%;
+    margin-top: 2%;
+  
 }
 
 .outer-square{
-    width:140px;
-    height:140px;
-    border: 3px solid rebeccapurple;
+    width:280px;
+    height:280px;
+    border: 3px solid black;
     border-radius: 10px;
 
     background-color: white;
     margin-left: auto;
-    margin-right: 0;
+    margin-right: 100px;
     
     
 }
@@ -21,8 +22,9 @@
     margin-left: 10%;
     width:75%;
     height: 75%;
-    border: 3px solid rebeccapurple;
+    border: 3px solid black;
     border-radius: 10px;
+    background-color: red;
    
     
 
@@ -32,10 +34,10 @@
 .smallest-square{
     width: 16%;
     height: 16%;
-    border: 2px solid rebeccapurple;
+    border: 2px solid black;
     border-radius: 3px;
     margin-left: 24%;
-    /* margin-top: -35%; */
+    
 
    
     
@@ -99,9 +101,11 @@
 }
 
 .node1{
-    width: 35%;
+    width: 29%;
     height: 100%;
     border-radius: 50%;
-    background-color: red;
-    margin-left: auto;
+    background-color: black;
+   margin-top: 7px;
+    margin-left: 32.5px;
+
 }

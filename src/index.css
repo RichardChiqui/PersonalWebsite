@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding:0;
+ 
 }
 .nav-header{
 background-color: #152238;
@@ -9,7 +10,7 @@ justify-content: flex-end;
 clear: none;
 color:white;
 font-family: 'Courier New', Courier, monospace;
-border:3px solid #E1D9D1;
+border: .2em solid #E1D9D1;
 border-top: 0px;
 border-left: 0px;
 border-right:0px;
@@ -18,14 +19,15 @@ border-right:0px;
 .landing-page{
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 .nav-header > h1{
-  padding: 20px;
+  padding: 1%;
 }
 
 .home-body{
   background: #152238;
-  height: 100vh;
+  height: 100%;
  
 
 }
@@ -40,8 +42,8 @@ border-right:0px;
 .home-description{
   width:auto;
   height: auto;
-  margin: 0px;
-  font-size: 30px;
+  margin: 0%;
+  font-size: 2em;
   color:white;
   font-family: 'Courier New', Courier, monospace;
 }
